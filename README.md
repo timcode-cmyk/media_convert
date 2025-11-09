@@ -1,0 +1,2 @@
+## Licensing
++ MediaConvert uses [FFmpeg](http://ffmpeg.org), a multimedia framework which is licensed under the [LGPLv2.1 license](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html), its source can be downloaded from [here](http://ffmpeg.org). 
