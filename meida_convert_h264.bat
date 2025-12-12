@@ -69,8 +69,8 @@ goto :EOF
 :ProcessVideo
 REM 参数: %1=原文件路径 %2=文件名(无扩展) %3=输出目录
 echo Processing video: %~2
-bin\ffmpeg -i "%~1" -c:v dnxhd -profile:v dnxhr_hq -c:a pcm_s16le "%~3\%~2_dnxhd.mov"
-echo Video saved as: %~3\%~2_dnxhd.mov
+bin\ffmpeg -i "%~1" "%~3\%~2_h264.mp4"
+echo Video saved as: %~3\%~2_h264.mp4
 exit /b
 
 :ProcessAudio
